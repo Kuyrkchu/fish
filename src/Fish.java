@@ -7,4 +7,12 @@ public class Fish extends Pet {
         //System.out.println("Я на глубине " + currentDepth + " футов ниже уровня моря");
         return currentDepth;
     }
+
+    @Override
+    public String say(String something) {
+      return "Ты что не знаешь, что рыбы не разговаривают?";
+
+    }
+
 }
+

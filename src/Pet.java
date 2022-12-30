@@ -5,7 +5,7 @@ public class Pet {
     float height;
     String color;
 
-    public void sleep() {
+   final public void sleep() {
         System.out.println("Спокойной ночи! До завтра");
     }
 

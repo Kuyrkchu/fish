@@ -6,11 +6,11 @@ public class FishMaster {
 
         //valueForDive = myFish.dive(2);
         //System.out.println(valueForDive);
-       // myFish.dive(3);
-       // myFish.sleep();
-       /// myFish.eat();
-        System.out.println(myFish.say("Daniil\r\n"  + "              Daniil"));
-        System.out.println(myFish.getMany());
-
+        // myFish.dive(3);
+        // myFish.sleep();
+        /// myFish.eat();
+        System.out.println(myFish.say("Daniil\r\n" + "              Daniil"));
+       //System.out.println(myFish.getMany());
+        myFish.say("Привет");
     }
 }
