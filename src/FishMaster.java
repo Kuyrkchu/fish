@@ -4,10 +4,10 @@ public class FishMaster {
         Fish myFish = new Fish();
 
         myFish.dive(78);
-        //myFish.dive(101);
-        //myFish.dive(101);
+        myFish.dive(101);
+        myFish.dive(101);
 
-       // myFish.sleep();
+        myFish.sleep();
 
 
     }
